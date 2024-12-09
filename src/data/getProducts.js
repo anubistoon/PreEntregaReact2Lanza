@@ -5,7 +5,7 @@ const products = [
     model: "Redmi",
     description: "Celular de alta gama con cámara Leica y carga rápida.",
     stock: 5,
-    category: "smartphone",
+    category: "redmi",
     image: "http://localhost:5173/public/img/xiaomi-13-pro-black.webp"
   },
   {
@@ -14,7 +14,7 @@ const products = [
     model: "Redmi",
     description: "Pantalla AMOLED, 120Hz y cámara de 200 MP.",
     stock: 8,
-    category: "smartphone",
+    category: "redmi",
     image: "http://localhost:5173/public/img/xiaomi-redmi-note-12-pro.webp"
   },
   {
@@ -23,7 +23,7 @@ const products = [
     model: "Poco",
     description: "Rendimiento destacado con Snapdragon 778G y carga de 67W.",
     stock: 10,
-    category: "smartphone",
+    category: "poco",
     image: "http://localhost:5173/public/img/xiaomi-poco-x5-pro-5g.webp"
   },
   {
@@ -32,7 +32,7 @@ const products = [
     model: "Redmi",
     description: "Celular estilizado con cámara selfie de 32 MP.",
     stock: 7,
-    category: "smartphone",
+    category: "redmi",
     image: "http://localhost:5173/public/img/xiaomi-12-lite-5g-new.webp"
   },
   {
@@ -41,7 +41,7 @@ const products = [
     model: "Redmi",
     description: "Smartphone económico con batería de larga duración.",
     stock: 12,
-    category: "smartphone",
+    category: "redmi",
     image: "http://localhost:5173/public/img/xiaomi-redmi-10c.webp"
   },
   {
@@ -50,7 +50,7 @@ const products = [
     model: "Redmi",
     description: "Celular premium con pantalla secundaria y cámara de 50 MP.",
     stock: 3,
-    category: "smartphone",
+    category: "redmi",
     image: "http://localhost:5173/public/img/xiaomi-mi11-ultra-5g-k1.webp"
   },
   {
@@ -59,7 +59,7 @@ const products = [
     model: "Poco",
     description: "Celular para gaming con MediaTek Helio G99.",
     stock: 9,
-    category: "smartphone",
+    category: "poco",
     image: "http://localhost:5173/public/img/xiaomi-poco-m5.webp"
   },
   {
@@ -68,7 +68,7 @@ const products = [
     model: "Redmi",
     description: "Pantalla FHD+ AMOLED y batería de 5000 mAh.",
     stock: 15,
-    category: "smartphone",
+    category: "redmi",
     image: "http://localhost:5173/img/xiaomi-redmi-note-11-global.webp"
   }
 ];

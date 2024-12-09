@@ -16,8 +16,8 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Telefonos" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/redmi">Redmi</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/poco">Poco</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="category/redmi">Redmi</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="category/poco">Poco</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/smarthome">Smart Home</Nav.Link>
             <NavDropdown title="Estilo de Vida" id="basic-nav-dropdown">

@@ -2,11 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import NavBar from './components/NavBar/NavBar';
-import Redmi from './components/paginas/Redmi';
-import Poco from './components/paginas/Poco';
 import Layout from './components/paginas/Layout';
 import Home from './components/paginas/Home';
 import NoPage from './components/paginas/NoPage';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
@@ -15,8 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="redmi" element={<Redmi />} />
-          <Route path="poco" element={<Poco />} />
+          <Route path="/category/:idCategory" element={<ItemListContainer/>} />
           <Route path="*" element={<NoPage />} />
           <Route path="/detail/:idProduct" element={<ItemDetailContainer />} />
         </Route>
